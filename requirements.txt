@@ -1,14 +1,5 @@
-[general]
-email = "r0896365@student.thomasmore.be"
-
-[server]
-headless = true
-port = $PORT
-enableCORS = false
-
-[dependencies]
-python = ">=3.9"
-streamlit = "*"
-pandas = "*"
-numpy = "*"
-simpleai = "*"
+pandas==2.2.1
+numpy==1.26.0
+simpleai==0.8.3
+python-constraint==1.4.0
+streamlit==1.26.0
